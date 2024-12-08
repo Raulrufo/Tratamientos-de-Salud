@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamientos de Salud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: url('ruta/a/tu/fondo.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: rgba(76, 175, 80, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .treatment {
+            margin-bottom: 20px;
+        }
+        .treatment img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .cta {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .cta:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Nuestros Tratamientos de Salud</h1>
+    <p>Mejora tu bienestar con nuestros servicios personalizados</p>
+</header>
+
+<div class="container">
+    <section class="treatment">
+        <h2>Tratamiento 1: [Nombre del Tratamiento]</h2>
+        <img src="ruta/a/tu/foto1.jpg" alt="[Descripción de la Imagen]">
+        <p>Descripción detallada del tratamiento y sus beneficios.</p>
+    </section>
+
+    <section class="treatment">
+        <h2>Tratamiento 2: [Nombre del Tratamiento]</h2>
+        <img src="ruta/a/tu/foto2.jpg" alt="[Descripción de la Imagen]">
+        <p>Descripción detallada del tratamiento y sus beneficios.</p>
+    </section>
+
+    <section class="treatment">
+        <h2>Tratamiento 3: [Nombre del Tratamiento]</h2>
+        <img src="ruta/a/tu/foto3.jpg" alt="[Descripción de la Imagen]">
+        <p>Descripción detallada del tratamiento y sus beneficios.</p>
+    </section>
+
+    <a href="contacto.html" class="cta">Contáctanos para más información</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tu Empresa de Salud. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html># Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+
+
+   
